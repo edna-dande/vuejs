@@ -11,6 +11,14 @@ export default {
 
 <template>
   <div class="message">{{ greeting }}</div>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
+  <p>Another change</p>
 </template>
 
 <style lang="scss">
