@@ -1,24 +1,28 @@
 // sr/App.vue
 <script>
+ import Button from './Button.vue';
+
 export default {
-  data() {
-    return {
-      greeting: "Hello, World!",
-    };
+  components: {
+    Button
   },
+  methods: {
+    handleButtonClick() {
+      console.log('Button clicked!');
+    },
+    handleSubmit() {
+      console.log('Form submitted!');
+    }
+  }
 };
 </script>
 
 <template>
-  <div class="message">{{ greeting }}</div>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
-  <p>Another change</p>
+  
+  <div>
+    <Button text="Click me!" @button-clicked="handleButtonClick"></Button>
+    <Button text="Submit" @button-clicked="handleSubmit"></Button>
+  </div>
 </template>
 
 <style lang="scss">
