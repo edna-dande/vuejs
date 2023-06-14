@@ -1,0 +1,56 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/components/Card.vue?vue&type=style&index=0&id=54cdc180&lang=scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background: #faf8f8;
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+}
+.container .card {
+  width: 200px;
+  height: 240px;
+  border: 1px solid #bcb1b1;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/pages/Home.vue?vue&type=style&index=0&id=5a90ec03&lang=scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background: #faf8f8;
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.container .card {
+  width: 200px;
+  height: 240px;
+  border: 1px solid #bcb1b1;
+  padding: 2rem;
+  border-radius: 3rem;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./src/pages/Page.vue?vue&type=style&index=0&id=aa73fc9a&lang=scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background: #faf8f8;
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.container .card {
+  width: 200px;
+  height: 240px;
+  border: 1px solid #bcb1b1;
+  padding: 2rem;
+  border-radius: 3rem;
+}

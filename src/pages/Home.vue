@@ -1,7 +1,7 @@
 // sr/App.vue
 <script>
- import Button from './Button.vue';
- import Card from './components/Card.vue'
+ import Button from '../Button.vue';
+ import Card from '../components/Card.vue'
 
 export default {
   data(){
@@ -51,10 +51,9 @@ export default {
 </script>
 
 <template>
-  <router-link class="link" to="/"> Home</router-link>
-      <router-link class="link" to="/page"> Page</router-link>
-      <router-link class="link" to="/page2"> Page 2</router-link>
-      <router-view></router-view>
+  <div v-for="item in entries" class="container">
+    <Card :username="item.text" :key="item.id"/>
+  </div>
 </template>
 
 <style lang="scss">
@@ -75,8 +74,4 @@ export default {
     border-radius: 3rem;
   }
 }
-    .link{
-      margin: 10px;
-      gap: 1rem;
-    } 
 </style>
